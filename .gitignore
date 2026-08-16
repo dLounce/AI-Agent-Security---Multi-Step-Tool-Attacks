@@ -1,0 +1,23 @@
+# --- Secrets: NEVER commit ---
+.env
+*.token
+*.pem
+
+# --- Python caches ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# --- Large model weights ---
+*.gguf
+*.bin
+*.safetensors
+
+# --- Local eval artifacts / logs ---
+artifacts/
+*.log
+*.jsonl
+
+# --- Vendored competition SDK ---
+# ai-agent-security-multi-step-tool-attacks/
